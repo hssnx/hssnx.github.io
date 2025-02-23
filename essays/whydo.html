@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>why do anything? - Essays - Hassan Shahir</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <style>
+    /* Container styling */
+    .notion-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+    }
+    /* Header bar styling */
+    .header-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid #eaeaea;
+      padding-bottom: 1rem;
+    }
+    .header-left {
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+    .header-left a {
+      text-decoration: none;
+      color: inherit;
+      transition: color 0.3s ease;
+    }
+    .header-right {
+      display: flex;
+      align-items: center;
+    }
+    .header-right a {
+      margin-right: 1.5rem;
+      text-decoration: none;
+      color: inherit;
+      font-weight: 500;
+      text-transform: lowercase;
+      transition: color 0.3s ease;
+    }
+    .header-right a:last-child {
+      margin-right: 0;
+    }
+    /* Hamburger menu styling */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+      width: 24px;
+      height: 18px;
+      justify-content: space-between;
+    }
+    .hamburger span {
+      display: block;
+      height: 3px;
+      background: #000;
+      border-radius: 2px;
+      transition: 0.3s;
+    }
+    /* Mobile navigation menu styling */
+    .mobile-nav {
+      display: none;
+      flex-direction: column;
+      background: #fff;
+      border: 1px solid #eaeaea;
+      border-radius: 5px;
+      padding: 1rem;
+      margin-top: 1rem;
+    }
+    .mobile-nav a {
+      margin: 0.5rem 0;
+      text-decoration: none;
+      color: inherit;
+      transition: color 0.3s ease;
+    }
+    /* Hover effect for all links */
+    a:hover {
+      color: #0249fa;
+    }
+    /* Article Template Styles */
+    .article-title {
+      text-align: center;
+      margin-bottom: 0.5em;
+      font-size: 2em;
+      font-weight: 600;
+    }
+    .article-properties {
+      text-align: center;
+      margin-bottom: 1em;
+      font-size: 0.9em;
+      color: #707070;
+    }
+    .article-properties span {
+      margin-right: 1em;
+    }
+    .article-divider {
+      border-top: 1px solid #eaeaea;
+      margin: 2em 0;
+    }
+    .article-content {
+      font-size: 1em;
+    }
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      .header-right {
+        display: none;
+      }
+      .hamburger {
+        display: flex;
+      }
+      .mobile-nav {
+        display: none;
+      }
+      .mobile-nav.active {
+        display: flex;
+      }
+    }
+  </style>
+
+  <div class="notion-container">
+    <!-- Header Bar -->
+    <div class="header-bar">
+      <div class="header-left">
+        <a href="https://hassanshahir.com">Hassan Shahir</a>
+      </div>
+      <div class="header-right">
+        <a href="../essays/_essays.html">essays</a>
+        <a href="../books/_books.html">books</a>
+        <a href="../projects/_projects.html">projects</a>
+        <a href="../curiosity/_curiosity.html">curiosity</a>
+      </div>
+      <div class="hamburger" onclick="toggleMobileNav()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-nav" id="mobileNav">
+      <a href="../essays/_essays.html">essays</a>
+      <a href="../books/_books.html">books</a>
+      <a href="../projects/_projects.html">projects</a>
+      <a href="../curiosity/_curiosity.html">curiosity</a>
+    </div>
+
+    <!-- Essay Article Template -->
+    <h1 class="article-title">Why Do Anything?</h1>
+    <div class="article-properties">
+      <span class="property-date">Published: November 25, 2024</span>
+      <span class="property-section">Section: Essays</span>
+      <span class="property-time">Time: 10 min read</span>
+    </div>
+    <div class="article-properties">
+      <span class="property-tags">Tags: curiosity, ambition, purpose, survival, meaning, lifestyle, innovation</span>
+    </div>
+    <div class="article-divider"></div>
+    <div class="article-content">
+      <p>I’m a very curious and ambitious person. I aspire to be among the people who innovate, solve real-world problems, those who are relentless, those who push the boundaries of science, technology, and innovation forward, those who are exceptional, with a ruthless drive to leave a long-lasting legacy. But often, I ask myself: Why? Why do any of this? What's the point? Why not have a simple, happy, easy life without any of that turbulence? Why do anything? Why bother trying to be exceptional and trying to make a change? Why study, be curious, and learn stuff?</p>
+      
+      <p>To be honest, I have a few answers for this, based on the below philosophies:</p>
+      
+      <ol>
+        <li><strong>Will to Live (Schopenhauer/Nietzsche):</strong> This is the instinctive drive for survival, rooted in our most basic needs for food, reproduction, and social standing.</li>
+        <li><strong>Will to Meaning (Viktor Frankl):</strong> The desire to find meaning and purpose beyond material gains. It is about contributing to humanity and making a difference that goes beyond oneself.</li>
+        <li><strong>Will to Lifestyle (Existentialism):</strong> The idea that we shape our own lifestyles based on our values and preferences. It’s about deciding who you want to be and how you want to live, regardless of external expectations...</li>
+      </ol>
+      
+      <hr />
+      
+      <h2>First Answer: To survive!</h2>
+      <p>The first answer to the question "Why do anything? Why bother trying to be exceptional and make a change?" is rooted in the philosophies of Schopenhauer and Nietzsche, focusing on the idea of the "will to live." This answer is grounded in our most fundamental instincts—the drive for survival. I think, in a very primitive sense, every human seeks a very few basic things:</p>
+      <ul>
+        <li>Sustenance (food).</li>
+        <li>Reproduction (sex).</li>
+        <li>Social Recognition (fame &amp; respect).</li>
+      </ul>
+      <p>I think (which is a controversial take) that you can achieve all of these by being valuable to society. You can attain sustenance (food), reproduction (sex), and social recognition (fame and respect) if you provide value to your community.</p>
+      <p>But how do you provide value? Think about it, thousands of years ago, when we were essentially primates, you provided value to your tribe by protecting your tribe from predators or by slaying the biggest mammoth. This would earn you sustenance (food) for extended periods, as a mammoth was a massive source of food and immense social recognition (respect and fame as 'the mammoth slayer' in your community). Because of this recognition, you had a better chance of attracting a partner for reproduction. This was the basic existence of humans for thousands of years—a primitive way of living focused on fulfilling instinctual needs.</p>
+      <p>But today, our society is more complex. Providing value is no longer about hunting; it's about solving much more sophisticated problems. To fulfill those primitive needs (sustenance, reproduction, and social recognition), you need to tackle complex challenges. This often means studying hard, getting good grades, attending a good university, and securing a decent-paying job in a company that solves problems, or even creating your own venture that addresses a problem. Achieving this gives you financial stability (equivalent to sustenance in the primitive sense), social recognition (fame and respect within your community), and better opportunities for forming relationships (finding a high-quality partner).</p>
+      <p>However, if we think about it, in current times everyone has attained these basic needs to some extent. In today's world, very few people suffer from extreme hunger or die alone, but it is clear that the value you provide is positively correlated with the quality of your sustenance, relationships, and social recognition. In other words, the more value you provide, the greater your chances of becoming wealthier, having a higher-quality relationship, and being more recognized and respected within a larger community or even globally. Take Elon Musk, for example, compared to a normal person with a decent-paying job. Both have attained the basic needs, but the level of recognition is linked to the value they provide. A normal employee may solve a small problem, whereas Elon Musk is working on sending humans to Mars, which is why their positions in the social hierarchy differ drastically.</p>
+      <p>In conclusion, "Why do anything? Why bother trying to be exceptional and make a change?" The very first and most basic, primitive survival-level answer is simple: for your own benefit, to satisfy your own instinctual drives, and to improve your own quality of life. Be financially stable, cultivate a relationship with a high-quality partner, and earn respect and social recognition. These are the core instinctual needs of human beings. If you prefer normal recognition, normal wealth, normal relationships, that's fine—just do the normal necessary work. But if you want exceptional recognition, grand wealth, and high-quality relationships, then you have to work exceptionally hard, be disruptive, solve emerging problems, push boundaries forward, and make significant changes—just like Elon Musk, Steve Jobs, Mark Zuckerberg, Bill Gates, and Jensen Huang.</p>
+      
+      <hr />
+      
+      <h2>Second answer: To fulfill your purpose!</h2>
+      <p>Our first answer focused on the instinctual drives of human beings. However, that's not all there is to life. Life is not about adhering strictly to a single idea or philosophy, or choosing between black and white. Life is nuanced—a blend of different ideas, and we need to draw from various philosophies to create our own unique version of reality. In my view, merely working hard, studying science and technology, and solving problems solely for sustenance, reproduction, and social recognition can lead to a hollow and dystopian way of living. Life should be more than that; it should have a deeper meaning that goes beyond merely fulfilling personal survival needs. Survival is, of course, important—which is why it was the first answer—but focusing solely on survival is ultimately limiting, pessimistic, and selfish.</p>
+      <p>This is where existentialism comes in. Philosophies like Viktor Frankl's "will to meaning" emphasize that true fulfillment comes from finding purpose beyond mere survival. This question—"What is the meaning of life?"—is an age-old, archetypal question. But I believe every human should reflect deeply on it. It's really a complex question to answer, but when I thought about it a lot, I personally found myself in the existentialism pool. Existentialism teaches that life has no inherent meaning; it is up to each individual to create their own purpose through their actions, choices, and passions. We have to ask ourselves: if my basic human needs were fulfilled (sustenance, reproduction, social recognition), what would I do, and why would I do it? This question pushes us to explore our deeper desires—those that are untainted by societal norms, financial pressures, or relationships. This pursuit of meaning is, in essence, what gives life its true purpose.</p>
+      <p>Personally, I believe that as humans, it's our obligation to push the boundaries of technology and science forward—to advance humanity and solve pressing problems. I think it’s a tragedy that millions of people suffer from diseases simply because we lack the knowledge to cure them. Millions of people die from solvable issues because we haven't yet found the solutions. Beyond solving problems for personal benefit, my primary motivation and purpose is to advance humanity as a whole, to elevate mankind, and improve the human condition through technology and science.</p>
+      <p>But there are people who prioritize pursuing meaning over their own basic needs—they don't focus on sustenance, social recognition, or relationships. What drives them is a relentless passion to create, not for monetary gain but for the love of pushing themselves to their limits and advancing the human race. Like Nikola Tesla. These individuals are a rare breed. Their reality and mindset are difficult for most of us to fully comprehend because they operate on a level of purpose that transcends personal comfort and conventional achievements. They are the reason we can communicate over the internet, send people to space, and rely on the foundational works that support our current scientific understanding. Personally, I would generally advise focusing on your own survival first then strive that hard.</p>
+      
+      <hr />
+      
+      <h2>Third answer: For your lifestyle!</h2>
+      <p>The third answer is more about your personal style and preferences. Think about it—what do you consider the ideal way to live? Beyond fulfilling basic human instinctual needs and finding meaning or purpose, how do you want to spend your life? What feels right for you? What kind of lifestyle do you resonate with? How do you want to live? What's cool for you? It's a bit satirical, but:</p>
+      <p>Are you going all-in on the “Godfather mafia boss type—cigar in one hand, enemies in the other, running the streets like Tony Montana on a cocaine-fueled power trip, full Thomas Shelby drama, sigma male kind of guy?” Do you like this lifestyle? If yes, then you should live this way and do things this way, because that’s what you love?</p>
+      <p>Or maybe you’re the "entrepreneur-turned-megalomaniac type—building rockets, tweeting nonsense, Elon Musk-ing your way to Mars, boring NPC turned UFC Zuckerberg, never seen a blade of grass, wearing a Steve Jobs turtleneck that screams *I’m better than you*.” Kind of guy?</p>
+      <p>Or are you going “mad scientist type—speaking in numbers and nerd gibberish, showering once a month, Max Pluck-ing quantum equations in your sleep, fuck money, die in poverty Nikola Tesla style, high on caffeine at 3 a.m., your first ‘artwork’ at age 3 was a perfect hyperbolic paraboloid but people mistook it for a Pringle, with Einstein as your granddad, full-on INTP” kind of guy?</p>
+      <p>What kind of life do you truly want? Or better yet, if your life were a video game, which character would you choose to play? Personally, I’d go for the "entrepreneur-turned-megalomaniac" stereotype character. That brings me to the third answer to the question, "Why do anything? Why bother trying to be exceptional and make a change? Why study hard and learn?"—because I want to live that kind of life. I fucking love it.</p>
+      <p>To me, it’s the coolest way to spend a lifetime: building shit, solving problems, advancing humanity, and at the same time, fulfilling your primal, instinctual needs as a human being. It’s the best life imaginable. That’s just my take. You might not agree, and that’s fine, because everyone’s got their own style.</p>
+      <p>Maybe you’d rather be the "mafia boss" type, or something completely different. Whatever it is, you should DO something in life, because that’s what gets you going, that’s your vibe, that’s what you love doing. That’s your style.</p>
+      
+      <hr />
+      
+      <h2>Conclusion</h2>
+      <p>In the end, the question, "Why do anything? Why bother trying to be exceptional and make a change?" boils down to this: it's about survival, purpose, and lifestyle. It’s about finding the intersection of your primal instincts, deeper meaning, and the way you want to live.</p>
+      <p>For me, life is about relentless curiosity, pushing boundaries, and living in a way that feels extraordinary. This blend represents the perfect intersection of survival (securing a decent job or starting your own venture), purpose (contributing to the advancement of humanity), and lifestyle (loving to build shit and solve problems). Life should be lived unapologetically aligned with your purpose and preferences, so that, at the end of it all, you can look back and say, "This was worth it."</p>
+      <p>So, why do anything in life? To stay alive, fulfill your purpose, and live your style. And I think this is the best “meaning to life” or “why live?” package anyone could hope for.</p>
+    </div>
+  </div>
+
+  <script>
+    function toggleMobileNav() {
+      var mobileNav = document.getElementById('mobileNav');
+      mobileNav.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
