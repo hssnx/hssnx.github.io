@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hassan Shahir</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-</head>
-<body>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
     /* Container styling */
     .notion-container {
@@ -111,7 +109,8 @@
       }
     }
   </style>
-
+</head>
+<body>
   <div class="notion-container">
     <!-- Header Bar -->
     <div class="header-bar">
@@ -122,7 +121,6 @@
         <a href="essays/_essays.html">essays</a>
         <a href="books/_books.html">books</a>
         <a href="projects/_projects.html">projects</a>
-        <a href="curiosity/_curiosity.html">curiosity</a>
       </div>
       <div class="hamburger" onclick="toggleMobileNav()">
         <span></span>
@@ -136,7 +134,6 @@
       <a href="essays/_essays.html">essays</a>
       <a href="books/_books.html">books</a>
       <a href="projects/_projects.html">projects</a>
-      <a href="curiosity/_curiosity.html">curiosity</a>
     </div>
 
     <!-- Quote Section -->
@@ -152,12 +149,11 @@
     <p>Hello World, welcome to my little corner of the internet. If you’ve stumbled across this site and like what you see, that’s great! For me, it’s just a personal archive.</p>
 
     <p>
-      Here, I share my thoughts (<a href="essays/_essays.html">essays</a>), 
-      what I’m reading (<a href="books/_books.html">books</a>), 
-      what I’m working on (<a href="projects/_projects.html">projects</a>), 
-      and the random things I’m learning (<a href="curiosity/_curiosity.html">curiosity</a>). 
+      Here, I share my thoughts (<a href="essays/_essays.html">essays</a>),  
+      what I’m reading (<a href="books/_books.html">books</a>),  
+      and what I’m working on (<a href="projects/_projects.html">projects</a>).  
       If you find something worthwhile here, that’s a bonus.
-    </p>
+    </p>    
 
     <p>
       I'm Hassan. I like tech, philosophy, sleep, and working on my ideas. I'm 18. I go to school. I code. I read. I build &amp; break and I think... (a lot).
@@ -174,11 +170,7 @@
   <script>
     function toggleMobileNav() {
       var mobileNav = document.getElementById('mobileNav');
-      if (mobileNav.classList.contains('active')) {
-        mobileNav.classList.remove('active');
-      } else {
-        mobileNav.classList.add('active');
-      }
+      mobileNav.classList.toggle('active');
     }
   </script>
 </body>
