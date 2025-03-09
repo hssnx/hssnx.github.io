@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>World’s Hardest Problems - Essays - Hassan Shahir</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <style>
+    /* Container styling */
+    .notion-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+    }
+    /* Header bar styling */
+    .header-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid #eaeaea;
+      padding-bottom: 1rem;
+    }
+    .header-left {
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+    .header-left a {
+      text-decoration: none;
+      color: inherit;
+      transition: color 0.3s ease;
+    }
+    .header-right {
+      display: flex;
+      align-items: center;
+    }
+    .header-right a {
+      margin-right: 1.5rem;
+      text-decoration: none;
+      color: inherit;
+      font-weight: 500;
+      text-transform: lowercase;
+      transition: color 0.3s ease;
+    }
+    .header-right a:last-child {
+      margin-right: 0;
+    }
+    /* Hamburger menu styling */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+      width: 24px;
+      height: 18px;
+      justify-content: space-between;
+    }
+    .hamburger span {
+      display: block;
+      height: 3px;
+      background: #000;
+      border-radius: 2px;
+      transition: 0.3s;
+    }
+    /* Mobile navigation menu styling */
+    .mobile-nav {
+      display: none;
+      flex-direction: column;
+      background: #fff;
+      border: 1px solid #eaeaea;
+      border-radius: 5px;
+      padding: 1rem;
+      margin-top: 1rem;
+    }
+    .mobile-nav a {
+      margin: 0.5rem 0;
+      text-decoration: none;
+      color: inherit;
+      transition: color 0.3s ease;
+    }
+    /* Hover effect for all links */
+    a:hover {
+      color: #0249fa;
+    }
+    /* Article Template Styles */
+    .article-title {
+      text-align: center;
+      margin-bottom: 0.5em;
+      font-size: 2em;
+      font-weight: 600;
+    }
+    .article-properties {
+      text-align: center;
+      margin-bottom: 1em;
+      font-size: 0.9em;
+      color: #707070;
+    }
+    .article-properties span {
+      margin-right: 1em;
+    }
+    .article-divider {
+      border-top: 1px solid #eaeaea;
+      margin: 2em 0;
+    }
+    .article-content {
+      font-size: 1em;
+    }
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      .header-right {
+        display: none;
+      }
+      .hamburger {
+        display: flex;
+      }
+      .mobile-nav {
+        display: none;
+      }
+      .mobile-nav.active {
+        display: flex;
+      }
+    }
+  </style>
+
+  <div class="notion-container">
+    <!-- Header Bar -->
+    <div class="header-bar">
+      <div class="header-left">
+        <a href="https://hassanshahir.com">Hassan Shahir</a>
+      </div>
+      <div class="header-right">
+        <a href="../essays/_essays.html">essays</a>
+        <a href="../books/_books.html">books</a>
+        <a href="../projects/_projects.html">projects</a>
+        <a href="../curiosity/_curiosity.html">curiosity</a>
+      </div>
+      <div class="hamburger" onclick="toggleMobileNav()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-nav" id="mobileNav">
+      <a href="../essays/_essays.html">essays</a>
+      <a href="../books/_books.html">books</a>
+      <a href="../projects/_projects.html">projects</a>
+      <a href="../curiosity/_curiosity.html">curiosity</a>
+    </div>
+
+    <!-- Essay Article Template -->
+    <h1 class="article-title">World’s Hardest Problems</h1>
+    <div class="article-properties">
+      <span class="property-date">Published: August 25, 2024</span>
+      <span class="property-section">Section: Essays</span>
+      <span class="property-time">Time: 2 min 5 sec read</span>
+    </div>
+    <div class="article-properties">
+      <span class="property-tags">Tags: innovation, technology, sustainability, healthcare, digital</span>
+    </div>
+    <div class="article-divider"></div>
+    <div class="article-content">
+      <p>These questions reflect some of the biggest challenges industries and researchers are tackling worldwide. Cracking these problems would unlock massive opportunities for innovation, driving technological breakthroughs, economic growth, and transformative advancements across multiple fields.</p>
+      
+      <h3>Technology Infrastructure &amp; Artificial Intelligence</h3>
+      <ul>
+        <li>What strategies can improve data organization, management, and flow?</li>
+        <li>How can technology reduce communication overload and increase workplace productivity?</li>
+        <li>How do we democratize affordable access to valuable information?</li>
+        <li>Can we enhance machine-to-machine communication to automate critical tasks?</li>
+        <li>How can we simplify the application of machine learning to complex real-world problems?</li>
+        <li>In what ways can data science practically solve everyday challenges?</li>
+        <li>Can we enable non-programmers to create and deploy software applications easily?</li>
+        <li>How feasible is on-site manufacturing or 3D printing of consumer products?</li>
+        <li>How can we develop smart systems capable of proactively addressing human needs?</li>
+        <li>How can continuous micro-learning be integrated seamlessly into daily life?</li>
+      </ul>
+      
+      <h3>Sustainability &amp; Human Development</h3>
+      <ul>
+        <li>Can we scale food production sustainably while ensuring health, nutrition, and taste?</li>
+        <li>Is the air quality consistently safe for all humans?</li>
+        <li>How can we ensure universal access to pure drinking water?</li>
+        <li>Are there methods to produce abundant, affordable, and clean energy?</li>
+        <li>What technologies or strategies can reverse or significantly mitigate climate change?</li>
+        <li>Is it feasible to establish sustainable human habitats on other planets?</li>
+        <li>Can we maximize crop yields using minimal land resources?</li>
+        <li>What are the most efficient sustainable energy solutions?</li>
+        <li>How can we create biodegradable alternatives for daily-use products?</li>
+        <li>Are there efficient methods to naturally decompose waste into safe, reusable materials?</li>
+        <li>How can we design socioeconomic systems providing equitable compensation and meaningful purpose for everyone?</li>
+      </ul>
+      
+      <h3>Healthcare &amp; Life Sciences</h3>
+      <ul>
+        <li>Can longitudinal studies accurately predict health risks before illness onset?</li>
+        <li>What technologies can identify early risk factors for chronic diseases (COPD, cardiovascular diseases, diabetes, heart failure, mental health, neurological and autoimmune disorders, cancer)?</li>
+        <li>How do we significantly improve management and outcomes for chronic disease sufferers?</li>
+        <li>Can we develop cost-effective, adaptive methods for treating infectious diseases?</li>
+        <li>Can comprehensive genomic analysis accurately predict susceptibility to diseases?</li>
+        <li>What non-invasive interventions can improve outcomes in critical health conditions?</li>
+        <li>How effectively can continuous non-invasive monitoring detect diseases early?</li>
+        <li>What strategies can significantly extend healthy human lifespans?</li>
+      </ul>
+      
+      <h3>Transportation &amp; Urban Infrastructure</h3>
+      <ul>
+        <li>What innovations can create cleaner, more sustainable cities?</li>
+        <li>How can we construct affordable, comfortable, and sustainable homes and workplaces for everyone?</li>
+        <li>What novel transportation solutions can drastically reduce travel times?</li>
+        <li>How can we design transport systems to maximize productivity during transit?</li>
+        <li>What convenient, efficient mid-range transportation solutions could we develop?</li>
+        <li>How can we optimize traffic management for large vehicle fleets?</li>
+        <li>Can we create autonomous, cost-effective solutions for transporting goods?</li>
+        <li>What affordable solutions exist to significantly speed up intercontinental travel?</li>
+        <li>Is a 100-fold improvement in space transportation efficiency achievable, and how?</li>
+      </ul>
+      
+      <h3>Digital Immersive Learning, Therapies &amp; Ambient Computing</h3>
+      <ul>
+        <li>Can we create interfaces responsive to multi-sensory human inputs?</li>
+        <li>What technologies allow realistic user immersion into digital environments?</li>
+        <li>Can we develop systems delivering instant access to knowledge as naturally as thought?</li>
+        <li>How feasible is thought-based interaction with computers?</li>
+        <li>How can interfaces preserve and enhance social connections vital to humanity’s development?</li>
+        <li>Can we use immersive learning to foster multidisciplinary thinking?</li>
+        <li>How can we improve conceptual communication between autonomous systems?</li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    function toggleMobileNav() {
+      var mobileNav = document.getElementById('mobileNav');
+      mobileNav.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>

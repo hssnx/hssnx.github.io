@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Essays - Hassan Shahir</title>
+  <title>Brain-Rot Culture - Essays - Hassan Shahir</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
@@ -87,41 +87,28 @@
     a:hover {
       color: #0249fa;
     }
-    /* Page Properties (Notion-Style Info) Section */
-    .page-properties {
+    /* Article Template Styles */
+    .article-title {
       text-align: center;
+      margin-bottom: 0.5em;
+      font-size: 2em;
+      font-weight: 600;
     }
-    .page-properties h2 {
-      margin-bottom: 0.5rem;
-    }
-    .page-properties p {
-      margin: 0.3rem 0;
-      color: #707070;
-    }
-    .notion-divider {
-      border-top: 1px solid #eaeaea;
-      margin: 2rem 0;
-    }
-    /* Essays item styling with bullet points */
-    .essay-list {
-      list-style: disc inside;
-      padding-left: 1em;
-    }
-    .essay-item {
-      margin: 0.5em 0;
-    }
-    .essay-item a {
-      text-decoration: none;
-      color: #000;
-      transition: color 0.3s ease;
-    }
-    .essay-item a:hover {
-      color: #0249fa;
-    }
-    .item-date {
-      color: #707070;
+    .article-properties {
+      text-align: center;
+      margin-bottom: 1em;
       font-size: 0.9em;
-      margin-right: 0.5em;
+      color: #707070;
+    }
+    .article-properties span {
+      margin-right: 1em;
+    }
+    .article-divider {
+      border-top: 1px solid #eaeaea;
+      margin: 2em 0;
+    }
+    .article-content {
+      font-size: 1em;
     }
     /* Responsive styles */
     @media (max-width: 768px) {
@@ -147,8 +134,7 @@
         <a href="https://hassanshahir.com">Hassan Shahir</a>
       </div>
       <div class="header-right">
-        <!-- Since we're in the essays folder, "essays" points to this file -->
-        <a href="_essays.html">essays</a>
+        <a href="../essays/_essays.html">essays</a>
         <a href="../books/_books.html">books</a>
         <a href="../projects/_projects.html">projects</a>
         <a href="../curiosity/_curiosity.html">curiosity</a>
@@ -161,51 +147,30 @@
     </div>
     <!-- Mobile Navigation Menu -->
     <div class="mobile-nav" id="mobileNav">
-      <a href="_essays.html">essays</a>
+      <a href="../essays/_essays.html">essays</a>
       <a href="../books/_books.html">books</a>
       <a href="../projects/_projects.html">projects</a>
       <a href="../curiosity/_curiosity.html">curiosity</a>
     </div>
 
-    <!-- Page Properties / Notion-Style Info Section -->
-    <div class="page-properties">
-      <h2>Essays</h2>
-      <p>A collection of my essays, musings, and long-form writings.</p>
-      <p>Last Updated: November 25, 2024</p>
+    <!-- Essay Article Template -->
+    <h1 class="article-title">Brain-Rot Culture</h1>
+    <div class="article-properties">
+      <span class="property-date">Published: June 19, 2024</span>
+      <span class="property-section">Section: Essays</span>
+      <span class="property-time">Time: 48 sec read</span>
     </div>
-
-    <div class="notion-divider"></div>
-    <ul class="essay-list">
-
-
+    <div class="article-properties">
+      <span class="property-tags">Tags: celebrity, culture, society, education, hypocrisy</span>
+    </div>
+    <div class="article-divider"></div>
+    <div class="article-content">
+      <p>I have thought about this a lot, and honestly, this whole obsession with celebrity culture is just dogshit. People spend their lives glorifying actors, athletes, and influencers, as if they are gods, as if their existence somehow adds value to the world. It is really absurd to see people measure value by how much money was wasted on weddings, parties, and luxury nonsense—just so they can talk about it, impress each other with useless conversations, and feel important for knowing things that do not matter.</p>
       
-
-
-    <li class="essay-item">
-      <span class="item-date">March 9, 2025</span>: 
-      <a href="pashto.html">Pashto NEEDS a Latin Script</a>
-    </li>
-    <li class="essay-item">
-      <span class="item-date">December 24, 2024</span>: 
-      <a href="warwechoose.html">The War We Choose</a>
-    </li>
-    <li class="essay-item">
-      <span class="item-date">October 17, 2024</span>: 
-      <a href="programming.html">Programming Isn’t About Syntax, It’s About Thinking</a>
-    </li>
-    <li class="essay-item">
-      <span class="item-date">August 25, 2024</span>: 
-      <a href="problems.html">World’s Hardest Problems</a>
-    </li>
-    <li class="essay-item">
-      <span class="item-date">June 19, 2024</span>: 
-      <a href="brainrot.html">Brain-Rot Culture</a>
-    </li>
-    <li class="essay-item">
-      <span class="item-date">February 27, 2024</span>: 
-      <a href="soldiers.html">Soldiers Die, Soldiers Kill</a>
-    </li>    
-  </ul>
+      <p>This entire rotten system of celebrity worship has turned people into empty, brain-rotten creatures who live through others. If only half this energy were spent on real things—on science, innovation, education—maybe, just maybe, the world would not be so damn pathetic. But no, society chooses to drool over celebrities while ignoring everything that actually matters.</p>
+      
+      <p>I think about places like Afghanistan, where millions are poured into cricket while the education system rots. Thousands of people will fill stadiums for sports, but when schools shut down and innocent girls are banned from education, they say nothing. They will camp outside a wedding hall just to catch a glimpse of a famous cricketer’s wedding party, yet will not stand up against real injustice. The hypocrisy is staggering, and priorities are completely f***ed.</p>
+    </div>
   </div>
 
   <script>

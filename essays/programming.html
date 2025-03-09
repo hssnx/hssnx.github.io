@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Essays - Hassan Shahir</title>
+  <title>Programming Isn’t About Syntax, It’s About Thinking - Essays - Hassan Shahir</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
@@ -87,41 +87,28 @@
     a:hover {
       color: #0249fa;
     }
-    /* Page Properties (Notion-Style Info) Section */
-    .page-properties {
+    /* Article Template Styles */
+    .article-title {
       text-align: center;
+      margin-bottom: 0.5em;
+      font-size: 2em;
+      font-weight: 600;
     }
-    .page-properties h2 {
-      margin-bottom: 0.5rem;
-    }
-    .page-properties p {
-      margin: 0.3rem 0;
-      color: #707070;
-    }
-    .notion-divider {
-      border-top: 1px solid #eaeaea;
-      margin: 2rem 0;
-    }
-    /* Essays item styling with bullet points */
-    .essay-list {
-      list-style: disc inside;
-      padding-left: 1em;
-    }
-    .essay-item {
-      margin: 0.5em 0;
-    }
-    .essay-item a {
-      text-decoration: none;
-      color: #000;
-      transition: color 0.3s ease;
-    }
-    .essay-item a:hover {
-      color: #0249fa;
-    }
-    .item-date {
-      color: #707070;
+    .article-properties {
+      text-align: center;
+      margin-bottom: 1em;
       font-size: 0.9em;
-      margin-right: 0.5em;
+      color: #707070;
+    }
+    .article-properties span {
+      margin-right: 1em;
+    }
+    .article-divider {
+      border-top: 1px solid #eaeaea;
+      margin: 2em 0;
+    }
+    .article-content {
+      font-size: 1em;
     }
     /* Responsive styles */
     @media (max-width: 768px) {
@@ -139,7 +126,7 @@
       }
     }
   </style>
-
+  
   <div class="notion-container">
     <!-- Header Bar -->
     <div class="header-bar">
@@ -147,8 +134,7 @@
         <a href="https://hassanshahir.com">Hassan Shahir</a>
       </div>
       <div class="header-right">
-        <!-- Since we're in the essays folder, "essays" points to this file -->
-        <a href="_essays.html">essays</a>
+        <a href="../essays/_essays.html">essays</a>
         <a href="../books/_books.html">books</a>
         <a href="../projects/_projects.html">projects</a>
         <a href="../curiosity/_curiosity.html">curiosity</a>
@@ -159,55 +145,39 @@
         <span></span>
       </div>
     </div>
+    
     <!-- Mobile Navigation Menu -->
     <div class="mobile-nav" id="mobileNav">
-      <a href="_essays.html">essays</a>
+      <a href="../essays/_essays.html">essays</a>
       <a href="../books/_books.html">books</a>
       <a href="../projects/_projects.html">projects</a>
       <a href="../curiosity/_curiosity.html">curiosity</a>
     </div>
-
-    <!-- Page Properties / Notion-Style Info Section -->
-    <div class="page-properties">
-      <h2>Essays</h2>
-      <p>A collection of my essays, musings, and long-form writings.</p>
-      <p>Last Updated: November 25, 2024</p>
+    
+    <!-- Essay Article Template -->
+    <h1 class="article-title">Programming Isn’t About Syntax, It’s About Thinking</h1>
+    <div class="article-properties">
+      <span class="property-date">Published: October 17, 2024</span>
+      <span class="property-section">Section: Essays</span>
+      <span class="property-time">Time: 1 min 4 sec read</span>
     </div>
-
-    <div class="notion-divider"></div>
-    <ul class="essay-list">
-
-
+    <div class="article-properties">
+      <span class="property-tags">Tags: programming, logic, AI, problem-solving, syntax</span>
+    </div>
+    <div class="article-divider"></div>
+    <div class="article-content">
+      <p>When most people start learning programming, they dive straight into languages and syntax. I've personally seen this approach lead to a very common issue: you learn loops, functions, and frameworks, yet when faced with a real-world problem, you freeze. You don't know where to start or how to apply those loops, functions, and frameworks to actually solve the problem.</p>
       
-
-
-    <li class="essay-item">
-      <span class="item-date">March 9, 2025</span>: 
-      <a href="pashto.html">Pashto NEEDS a Latin Script</a>
-    </li>
-    <li class="essay-item">
-      <span class="item-date">December 24, 2024</span>: 
-      <a href="warwechoose.html">The War We Choose</a>
-    </li>
-    <li class="essay-item">
-      <span class="item-date">October 17, 2024</span>: 
-      <a href="programming.html">Programming Isn’t About Syntax, It’s About Thinking</a>
-    </li>
-    <li class="essay-item">
-      <span class="item-date">August 25, 2024</span>: 
-      <a href="problems.html">World’s Hardest Problems</a>
-    </li>
-    <li class="essay-item">
-      <span class="item-date">June 19, 2024</span>: 
-      <a href="brainrot.html">Brain-Rot Culture</a>
-    </li>
-    <li class="essay-item">
-      <span class="item-date">February 27, 2024</span>: 
-      <a href="soldiers.html">Soldiers Die, Soldiers Kill</a>
-    </li>    
-  </ul>
+      <p>After struggling with this myself, I realized that simply knowing Python or JavaScript doesn't automatically equip you to tackle complex problems. Think of it this way: if someone asked you to explain a physics problem in English, the key would be your knowledge of physics, not your fluency in English. English is just the communication tool, not the solution itself. Programming works exactly the same. Understanding logic, the “why” and the “how”, is what truly matters; the programming language is just the way you express that solution.</p>
+      
+      <p>Instead of getting stuck on syntax, focus on the logic behind your code. This is especially true now, with current AI capabilities reinforcing this idea even more. Historically, programmers had to master every line of syntax because coding required intense manual effort. Today, higher-level languages and AI handle much of this tedious work.</p>
+      
+      <p>AI is dramatically changing programming by managing repetitive tasks, syntax details, debugging, and boilerplate code. This shift means programmers now need to focus more than ever on problem-solving, logic, and designing solutions. It’s similar to math: before calculators, even small numerical calculations were significant achievements. After calculators took over that tedious work, mathematicians were freed to tackle more complex and interesting problems.</p>
+      
+      <p>In the same way, AI handles basic coding tasks, pushing programmers to solve deeper, more meaningful issues. In short, stop obsessing over syntax. Instead, master problem-solving and logic. Let AI handle the tedious parts.</p>
+    </div>
   </div>
-
+  
   <script>
     function toggleMobileNav() {
       var mobileNav = document.getElementById('mobileNav');
